@@ -55,7 +55,7 @@ docker compose up -d
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
 
-# 🔄 Upgrading
+## 🔄 Upgrading
 
 1. Pull the latest release:
 ```bash
@@ -90,21 +90,21 @@ For major upgrades, check the Release Notes for special instructions.
 | bika.cement                  | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.cement) |
 | bika.wine                    | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.wine) |
 
-* 📜 Licence
+## 📜 Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
 All bundled upstream components retain their original licenses.
 License files for each component are included in their own repos.
 
-* 📚 Resources
+## 📚 Resources
 - [Bika LIMS GitHub Source Repository](https://github.com/bikalims)
 - [Senaite GitHub Source Repository](https://github.com/senaite)
 - [Docker Hub Images](https://hub.docker.com/u/bikalims)
   
-* 🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 - [Report issues, request improvements](https://bika.atlassian.net/jira/dashboards/10000)
 - [Join the Bika Slack room](mailto:info@bikalabs.com?subject=Please subscribe me to Bika Slack)
   
-# ⚠️ Disclaimer
+## ⚠️ Disclaimer
 This repository does not contain the source code of Bika LIMS itself.
 It is a packaging and deployment solution designed to make running Bika LIMS in Docker easy and consistent.
