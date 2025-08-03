@@ -35,19 +35,22 @@ It contains only Docker packaging, deployment scripts, and documentation – not
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
-
+```bash
 git clone https://github.com/YOUR-ORG/bika.lims.git
 cd bika.lims
+```
 
 ### 2. Configure environment
 
 ```bash
 cp .env.example .env
-
+```
 Edit `.env` as needed for your environment
 
 ### 3. Start the stack
+```bash
 docker compose up -d
+```
 📍Your Bika LIMS instance will be available at: http://localhost (or the host machine’s IP/domain)
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
@@ -55,10 +58,14 @@ To complete your installation, activate your desired add‑ons via Site Setup in
 # 🔄 Upgrading
 
 1. Pull the latest release:
+```bash
 git pull origin main
+```
 
 2. Rebuild and restart:
+```bash
 docker compose pull && docker compose up -d --build
+```
 For major upgrades, check the Release Notes for special instructions.
 * 📋 Component Versions
 
