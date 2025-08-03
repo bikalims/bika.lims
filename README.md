@@ -35,7 +35,7 @@ It contains only Docker packaging, deployment scripts, and documentation – not
 ## 🚀 Quick Start
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/YOUR-ORG/bika.lims.git
 cd bika.lims
 
