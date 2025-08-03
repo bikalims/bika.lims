@@ -69,8 +69,8 @@ docker compose pull && docker compose up -d --build
 For major upgrades, check the Release Notes for special instructions.
 * 📋 Component Versions
 
-| | Component | Version | License | Upstream Source |
-| |-----------------------------|-------|---------|----------|
+| | Component | Version | License | Upstream Source | |
+| |-----------------------------|-------|---------|----------| |
 | senaite.core | latest | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.core) |
 | senaite.app.listing | latest | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.app.listing) |
 | senaite.lims | latest | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
