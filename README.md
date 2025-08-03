@@ -100,10 +100,9 @@ License files for each component are included in their own repos.
 - [Senaite GitHub Source Repository](https://github.com/senaite)
 - [Docker Hub Images](https://hub.docker.com/u/bikalims)
   
-## 🤝 Contributing
-Contributions are welcome!
+## 🤝 Contributing. Support
 - [Report issues, request improvements](https://bika.atlassian.net/jira/dashboards/10000)
-- [Join the Bika Slack room](mailto:info@bikalabs.com?subject=Please subscribe me to Bika Slack)
+- [Join the Bika Slack room](mailto:info@bikalabs.com?subject=Please%20subscribe%20me%20to%20Bika%20Slack)
   
 ## ⚠️ Disclaimer
 This repository does not contain the source code of Bika LIMS itself.
