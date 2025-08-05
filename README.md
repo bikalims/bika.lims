@@ -67,7 +67,7 @@ git pull origin main
 docker compose pull && docker compose up -d --build
 ```
 For major upgrades, check the Release Notes for special instructions.
-* 📋 Component Versions
+## 📋 Component Versions
 
 | Component                    | Version | License | Upstream Source |
 |------------------------------|---------|---------|-----------------|
