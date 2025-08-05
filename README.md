@@ -1,4 +1,4 @@
-#### 🐳 Ingwe Bika LIMS 4 – Docker Suite
+### 🐳 Ingwe Bika LIMS 4 – Docker Suite
 
 This repository provides an official Docker-based distribution of [Bika LIMS](https://www.bikalims.org), an open-source Laboratory Information Management System.  
 
@@ -6,16 +6,16 @@ It contains only Docker packaging, deployment scripts, and documentation – not
 
 💡Full installations are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
 
-## 📦 What is included?
+### 📦 What is included?
 
-### Core System
+#### Core System
 - senaite.core – The main framework providing the foundation for Senaite/Bika LIMS
 - senaite.app.listing – ReactJS listing component for modern, dynamic listings
 - senaite.lims – Meta package installing all required dependencies for Senaite/Bika LIMS
 - senaite.impress – Rendering of Certificates of Analysis (COAs) to PDF
 - senaite.queue – Background processing.
 
-### Bika-managed Add‑ons
+#### Bika-managed Add‑ons
 - bika.ui – Makes branding the LIMS easier and restores Bika iconography to replace default black and white scheme
 - senaite.instruments – Collection of instrument interfaces, updated regularly
 - senaite.sampleimporter – Bulk Sample Imports from spreadsheets
@@ -27,27 +27,27 @@ It contains only Docker packaging, deployment scripts, and documentation – not
 - senaite.crms – Improved reference sample management
 - senaite.receivedemail – Posts a ‘Sample received’ email to client on sample receipt
 
-### Lab Discipline‑Specific Branches
+#### Lab Discipline‑Specific Branches
 - bika.aquaculture – Aquaculture laboratory workflows and reporting
 - bika.cement – Cement laboratory testing workflows and result handling
 - bika.wine – Wine laboratory workflows, chemistry, and sensory analysis
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
-### 1. Clone the repository
+#### 1. Clone the repository
 ```bash
 git clone https://github.com/YOUR-ORG/bika.lims.git
 cd bika.lims
 ```
 
-### 2. Configure environment
+#### 2. Configure environment
 
 ```bash
 cp .env.example .env
 ```
 Edit `.env` as needed for your environment
 
-### 3. Start the stack
+#### 3. Start the stack
 ```bash
 docker compose up -d
 ```
@@ -55,7 +55,7 @@ docker compose up -d
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
 
-## 🔄 Upgrading
+### 🔄 Upgrading
 
 1. Pull the latest release:
 ```bash
@@ -67,7 +67,7 @@ git pull origin main
 docker compose pull && docker compose up -d --build
 ```
 For major upgrades, check the Release Notes for special instructions.
-## 📋 Component Versions
+### 📋 Component Versions
 
 | Component                    | Version | License | Upstream Source |
 |------------------------------|---------|---------|-----------------|
@@ -90,20 +90,20 @@ For major upgrades, check the Release Notes for special instructions.
 | bika.cement                  | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.cement) |
 | bika.wine                    | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.wine) |
 
-## 📜 Licence
+### 📜 Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
 All bundled upstream components retain their original licenses.
 License files for each component are included in their own repos.
 
-## 📚 Resources
+### 📚 Resources
 - [Bika LIMS GitHub Source Repository](https://github.com/bikalims)
 - [Senaite GitHub Source Repository](https://github.com/senaite)
 - [Docker Hub Images](https://hub.docker.com/u/bikalims)
   
-## 🤝 Contributing. Support
+### 🤝 Contributing. Support
 - [Report issues, request improvements](https://bika.atlassian.net/jira/dashboards/10000)
 - [Join the Bika Slack room](mailto:info@bikalabs.com?subject=Please%20subscribe%20me%20to%20Bika%20Slack)
   
-## ⚠️ Disclaimer
+### ⚠️ Disclaimer
 This repository does not contain the source code of Bika LIMS itself.
 It is a packaging and deployment solution designed to make running Bika LIMS in Docker easy and consistent.
