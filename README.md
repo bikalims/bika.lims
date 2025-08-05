@@ -1,4 +1,4 @@
-# 🐳 Ingwe Bika LIMS 4 – Docker Suite
+## 🐳 Ingwe Bika LIMS 4 – Docker Suite
 
 This repository provides an official Docker-based distribution of [Bika LIMS](https://www.bikalims.org), an open-source Laboratory Information Management System.  
 
