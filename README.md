@@ -7,7 +7,8 @@ Ingwe is a powerful, feature‑rich laboratory information management system bui
 With Ingwe, you get all of Senaite’s core strengths, plus extensive enhancements and refinements commissioned by forward‑thinking laboratories and maintained by the Bika team. The result is a more capable, more intuitive, and more efficient LIMS — backed by dedicated support from the people who have been perfecting laboratory solutions for over 20 years.
 
 💡 The release contains only Docker packaging, deployment scripts, and documentation – not the application source code which lives in their own repositories.
-** NB Full installations ** are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
+
+**NB Full installations** are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
 
 ### 📦 What is included?
 
