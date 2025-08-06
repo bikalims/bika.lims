@@ -1,6 +1,6 @@
 ### 🐳 Ingwe Bika LIMS 4 – Docker Suite
 
-This repository provides an official Docker-based distribution of [Bika LIMS](https://www.bikalims.org), an open-source Laboratory Information Management System.
+This repository provides an official Docker-based distribution of [Bika Open Source LIMS](https://www.bikalims.org).
 
 Ingwe is a powerful, feature‑rich laboratory information management system built on the rock‑solid foundation of Senaite 2.6. At its core, Ingwe shares Senaite’s modern architecture, clean UI, robust API, and proven modularity. But Ingwe goes further. Developed and supported by [Bika Lab Systems](https://bikalabs.com), professional Bika and Senaite LIMS service provider since 2002, Ingwe delivers more than a platform — it delivers two decades of LIMS expertise, innovation, and commitment to your lab’s success.
 
