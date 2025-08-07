@@ -36,28 +36,24 @@ With Ingwe, you get all of Senaite’s core strengths, plus extensive enhancemen
 - bika.cement – Cement laboratory testing workflows and result handling
 - bika.wine – Wine laboratory workflows, chemistry, and sensory analysis
 
-### 🚀 Quick Start
+### 🚀 Quick Start -  Docker Compose
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR-ORG/bika.lims.git
-cd bika.lims
+git clone https://github.com/bikalims/bika.lims.git
+cd bika.lims/4.0.0
 ```
 
-#### 2. Configure environment
-
-```bash
-cp .env.example .env
-```
-Edit `.env` as needed for your environment
-
-#### 3. Start the stack
+#### 2. Start the stack
 ```bash
 docker compose up -d
 ```
-📍Your Bika LIMS instance will be available at: http://localhost (or the host machine’s IP/domain)
+📍Your Bika LIMS instance will be available at: http://localhost:8081 and http://localhost:8081 (or the host machine’s IP/domain)
+
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
+
+
 
 ### 🔄 Upgrading
 
