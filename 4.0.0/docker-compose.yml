@@ -1,5 +1,3 @@
-version: "3"
-
 services:
 
   zeo:
@@ -21,20 +19,32 @@ services:
           memory: 2048MB
     environment:
       ZEO_ADDRESS: "zeo:8080"
+#       PLONE_SITE: "bikalims"
+#       PLONE_TITLE: "BikaLims"
+#       PLONE_PROFILES: "senaite.lims:default bika.ui:default"
+#     healthcheck:
+#       test: ["CMD", "curl", "-f", "http://localhost:8080/bikalims"]
+#       start_period: 5s
+#       interval: 10s
+#       timeout: 2s
+#       retries: 5
 
-  instance2:
-    image: bikalims/bikalims:v4.0.0
-    ports:
-      - 8082:8080
-    links:
-      - zeo
-    deploy:
-      resources:
-        limits:
-          cpus: "1"
-          memory: 2048MB
-    environment:
-      ZEO_ADDRESS: "zeo:8080"
+#   instance2:
+#     image: bikalims/bikalims:v4.0.0
+#     ports:
+#       - 8082:8080
+#     links:
+#       - zeo
+#     deploy:
+#       resources:
+#         limits:
+#           cpus: "1"
+#           memory: 2048MB
+#     environment:
+#       ZEO_ADDRESS: "zeo:8080"
+#     depends_on:
+#       instance1:
+#         condition: service_healthy
 
 volumes:
   data:
