@@ -21,7 +21,11 @@ services:
       ZEO_ADDRESS: "zeo:8080"
       PLONE_SITE: "bikalims"
       PLONE_TITLE: "BikaLims"
-      PLONE_PROFILES: "senaite.lims:default bika.ui:default bika.coa:default"
+      PLONE_PROFILES: >-
+          senaite.lims:default
+          senaite.instruments:default
+          bika.ui:default
+          bika.coa:default
     healthcheck:
       test:
         [
