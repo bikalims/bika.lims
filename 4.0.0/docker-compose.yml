@@ -19,32 +19,38 @@ services:
           memory: 2048MB
     environment:
       ZEO_ADDRESS: "zeo:8080"
-#       PLONE_SITE: "bikalims"
-#       PLONE_TITLE: "BikaLims"
-#       PLONE_PROFILES: "senaite.lims:default bika.ui:default"
-#     healthcheck:
-#       test: ["CMD", "curl", "-f", "http://localhost:8080/bikalims"]
-#       start_period: 5s
-#       interval: 10s
-#       timeout: 2s
-#       retries: 5
+      PLONE_SITE: "bikalims"
+      PLONE_TITLE: "BikaLims"
+      PLONE_PROFILES: "senaite.lims:default bika.ui:default bika.coa:default"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib2; r=urllib2.urlopen('http://localhost:8080/bikalims'); print(r.getcode()); exit(0)",
+        ]
+      start_period: 60s
+      interval: 15s
+      timeout: 5s
+      retries: 5
 
-#   instance2:
-#     image: bikalims/bikalims:v4.0.0
-#     ports:
-#       - 8082:8080
-#     links:
-#       - zeo
-#     deploy:
-#       resources:
-#         limits:
-#           cpus: "1"
-#           memory: 2048MB
-#     environment:
-#       ZEO_ADDRESS: "zeo:8080"
-#     depends_on:
-#       instance1:
-#         condition: service_healthy
+  instance2:
+    image: bikalims/bikalims:v4.0.0
+    ports:
+      - 8082:8080
+    links:
+      - zeo
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 2048MB
+    environment:
+      ZEO_ADDRESS: "zeo:8080"
+    depends_on:
+      instance1:
+        condition: service_healthy
 
 volumes:
   data:
