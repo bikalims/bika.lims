@@ -71,24 +71,24 @@ For major upgrades, check the Release Notes for special instructions.
 
 | Component                    | Version | License | Upstream Source |
 |------------------------------|---------|---------|-----------------|
-| senaite.core                 | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.core) |
-| senaite.app.listing          | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.app.listing) |
-| senaite.lims                 | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
-| senaite.queue                | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.queue) |
-| senaite.impress              | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
-| bika.ui                      | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.ui) |
-| senaite.instruments          | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.instruments) |
-| senaite.sampleimporter       | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.sampleimporter) |
-| senaite.batch.invoices       | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.batch.invoices) |
-| senaite.timeseries           | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.timeseries) |
-| senaite.samplepointlocations | latest  | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.samplepointlocations) |
-| bika.qmanager                | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.qmanager) |
-| bika.extras                  | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.extras) |
-| senaite.crms                 | latest  | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
-| senaite.receivedemail        | latest  | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
-| bika.aquaculture             | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.aquaculture) |
-| bika.cement                  | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.cement) |
-| bika.wine                    | latest  | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.wine) |
+| senaite.core                 | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.core) |
+| senaite.app.listing          | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.app.listing) |
+| senaite.lims                 | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
+| senaite.queue                | 1.0.3 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.queue) |
+| senaite.impress              | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
+| bika.ui                      | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.ui) |
+| senaite.instruments          | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.instruments) |
+| senaite.sampleimporter       | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.sampleimporter) |
+| senaite.batch.invoices       | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.batch.invoices) |
+| senaite.timeseries           | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.timeseries) |
+| senaite.samplepointlocations | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.samplepointlocations) |
+| bika.qmanager                | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.qmanager) |
+| bika.extras                  | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.extras) |
+| senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
+| senaite.receivedemail        | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
+| bika.aquaculture             | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.aquaculture) |
+| bika.cement                  | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.cement) |
+| bika.wine                    | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.wine) |
 
 ### 📜 Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
