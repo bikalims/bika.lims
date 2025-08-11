@@ -1,40 +1,40 @@
-### 🐳 Ingwe Bika LIMS 4 – Docker Suite
+### 🐳 Ingwe Bika LIMS 4 - Docker Suite
 
 This repository provides an official Docker-based distribution of [Bika Open Source LIMS](https://www.bikalims.org).
 
-Ingwe is a powerful, feature‑rich laboratory information management system built on the rock‑solid foundation of Senaite 2.6. At its core, Ingwe shares Senaite’s modern architecture, clean UI, robust API, and proven modularity. But Ingwe goes further. Professionally supported by [Bika Lab Systems](https://bikalabs.com), Bika and Senaite service provider since 2002, Ingwe delivers more than a platform — it delivers two decades of deep domain expertise, innovation, and commitment to your lab’s success.
+Ingwe is a powerful, feature‑rich laboratory information management system built on the rock‑solid foundation of Senaite 2.6. At its core, Ingwe shares Senaite's modern architecture, clean UI, robust API, and proven modularity. But Ingwe goes further. Professionally supported by [Bika Lab Systems](https://bikalabs.com), Bika and Senaite service provider since 2002, Ingwe delivers more than a platform - it delivers two decades of deep domain expertise, innovation, and commitment to your lab's success.
 
-With Ingwe, you get all of Senaite’s core strengths, plus extensive enhancements and refinements commissioned by forward‑thinking laboratories and maintained by the Bika team. The result is a more capable and more efficient LIMS — backed by dedicated support from the people who have been perfecting laboratory solutions for over 20 years.
+With Ingwe, you get all of Senaite's core strengths, plus extensive enhancements and refinements commissioned by forward‑thinking laboratories and maintained by the Bika team. The result is a more capable and more efficient LIMS - backed by dedicated support from the people who have been perfecting laboratory solutions for over 20 years.
 
-💡 The release contains only Docker packaging, deployment scripts, and documentation – not the application source code which lives in their own repositories.
+💡 The release contains only Docker packaging, deployment scripts, and documentation - not the application source code which lives in their own repositories.
 
 **NB Full installations** are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
 
 ### 📦 What is included?
 
 #### Core System
-- senaite.core – The main framework providing the foundation for Senaite/Bika LIMS
-- senaite.app.listing – ReactJS listing component for modern, dynamic listings
-- senaite.lims – Meta package installing all required dependencies for Senaite/Bika LIMS
-- senaite.impress – Rendering of Certificates of Analysis (COAs) to PDF
-- senaite.queue – Background processing.
+- senaite.core - The main framework providing the foundation for Senaite/Bika LIMS
+- senaite.app.listing - ReactJS listing component for modern, dynamic listings
+- senaite.lims - Meta package installing all required dependencies for Senaite/Bika LIMS
+- senaite.impress - Rendering of Certificates of Analysis (COAs) to PDF
+- senaite.queue - Background processing.
 
 #### Bika-managed Add‑ons
-- bika.ui – Makes branding the LIMS easier and restores Bika iconography to replace default black and white scheme
-- senaite.instruments – Collection of instrument interfaces, updated regularly
-- senaite.sampleimporter – Bulk Sample Imports from spreadsheets
-- senaite.batch.invoices – Issues invoices per Batch
-- senaite.timeseries – Enables tabled and graphed Time Series results
-- senaite.samplepointlocations – Two‑tier Sample Point structure, per Location
-- bika.qmanager – Allows lab managers to set analysis volume ceilings for switching to background processing
-- bika.extras – Collection of smaller tweaks not substantial enough for their own releases
-- senaite.crms – Improved reference sample management
-- senaite.receivedemail – Posts a ‘Sample received’ email to client on sample receipt
+- bika.ui - Makes branding the LIMS easier and restores Bika iconography to replace default black and white scheme
+- senaite.instruments - Collection of instrument interfaces, updated regularly
+- senaite.sampleimporter - Bulk Sample Imports from spreadsheets
+- senaite.batch.invoices - Issues invoices per Batch
+- senaite.timeseries - Enables tabled and graphed Time Series results
+- senaite.samplepointlocations - Two‑tier Sample Point structure, per Location
+- bika.qmanager - Allows lab managers to set analysis volume ceilings for switching to background processing
+- bika.extras - Collection of smaller tweaks not substantial enough for their own releases
+- senaite.crms - Improved reference sample management
+- senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 
 #### Lab Discipline‑Specific Branches
-- bika.aquaculture – Aquaculture laboratory workflows and reporting
-- bika.cement – Cement laboratory testing workflows and result handling
-- bika.wine – Wine laboratory workflows, chemistry, and sensory analysis
+- bika.aquaculture - Aquaculture laboratory workflows and reporting
+- bika.cement - Cement laboratory testing workflows and result handling
+- bika.wine - Wine laboratory workflows, chemistry, and sensory analysis
 
 ### 🚀 Quick Start -  Docker Compose
 
