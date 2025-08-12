@@ -17,7 +17,8 @@ With Ingwe, you get all of Senaite's core strengths, plus extensive enhancements
 - senaite.app.listing - ReactJS listing component for modern, dynamic listings
 - senaite.lims - Meta package installing all required dependencies for Senaite/Bika LIMS
 - senaite.impress - Rendering of Certificates of Analysis (COAs) to PDF
-- senaite.queue - Background processing.
+- senaite.queue - Background processing
+- senaite.storage - Sample Storage module
 
 #### Bika-managed Add‑ons
 - bika.ui - Makes branding the LIMS easier and restores Bika iconography to replace default black and white scheme
@@ -77,6 +78,7 @@ For major upgrades, check the Release Notes for special instructions.
 | senaite.lims                 | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
 | senaite.queue                | 1.0.3 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.queue) |
 | senaite.impress              | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
+| senaite.storage              | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.storage) |
 | bika.ui                      | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.ui) |
 | bika.coa                     | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.coa) |
 | senaite.instruments          | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.instruments) |
