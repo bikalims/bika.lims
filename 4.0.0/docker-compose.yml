@@ -26,6 +26,10 @@ services:
           senaite.instruments:default
           bika.ui:default
           bika.coa:default
+          bika.extras:default
+          bika.reports:default
+          senaite.crms:default
+          senaite.storage:default
     healthcheck:
       test:
         [
