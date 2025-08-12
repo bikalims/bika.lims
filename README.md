@@ -21,6 +21,7 @@ With Ingwe, you get all of Senaite's core strengths, plus extensive enhancements
 
 #### Bika-managed Add‑ons
 - bika.ui - Makes branding the LIMS easier and restores Bika iconography to replace default black and white scheme
+- bika.coa - Collection of COA templates
 - senaite.instruments - Collection of instrument interfaces, updated regularly
 - senaite.sampleimporter - Bulk Sample Imports from spreadsheets
 - senaite.batch.invoices - Issues invoices per Batch
@@ -77,6 +78,7 @@ For major upgrades, check the Release Notes for special instructions.
 | senaite.queue                | 1.0.3 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.queue) |
 | senaite.impress              | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
 | bika.ui                      | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.ui) |
+| bika.coa                     | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.coa) |
 | senaite.instruments          | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.instruments) |
 | senaite.sampleimporter       | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.sampleimporter) |
 | senaite.batch.invoices       | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.batch.invoices) |
