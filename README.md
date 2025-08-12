@@ -50,7 +50,7 @@ cd bika.lims/4.0.0
 ```bash
 docker compose up -d
 ```
-📍Your Bika LIMS instance will be available at: http://localhost:8081 and http://localhost:8081 (or the host machine’s IP/domain)
+📍Your Bika LIMS instance will be available at: http://localhost:8081 (or the host machine’s IP/domain)
 
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
