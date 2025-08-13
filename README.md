@@ -10,9 +10,9 @@ With Ingwe, you get all of Senaite's core strengths, plus extensive enhancements
 
 **NB Full installations** are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
 
-### 📦 What is included?
+### 📦 Included: Preinstalled and Activated
 
-#### Core System
+#### Senaite Core
 - senaite.core - The main framework providing the foundation for Senaite/Bika LIMS
 - senaite.app.listing - ReactJS listing component for modern, dynamic listings
 - senaite.lims - Meta package installing all required dependencies for Senaite/Bika LIMS
@@ -25,12 +25,15 @@ With Ingwe, you get all of Senaite's core strengths, plus extensive enhancements
 - bika.coa - Collection of COA templates
 - senaite.instruments - Collection of instrument interfaces, updated regularly
 - senaite.sampleimporter - Bulk Sample Imports from spreadsheets
-- senaite.batch.invoices - Issues invoices per Batch
+- bika.extras - Collection of smaller tweaks not substantial enough for their own releases
 - senaite.timeseries - Enables tabled and graphed Time Series results
+- senaite.crms - Improved reference sample management
+
+### Not included (yet). Available in individual repos
+These should come preinstalled in next upgrades
+- senaite.batch.invoices - Issues invoices per Batch
 - senaite.samplepointlocations - Two‑tier Sample Point structure, per Location
 - bika.qmanager - Allows lab managers to set analysis volume ceilings for switching to background processing
-- bika.extras - Collection of smaller tweaks not substantial enough for their own releases
-- senaite.crms - Improved reference sample management
 - senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 
 #### Lab Discipline‑Specific Branches
@@ -50,7 +53,7 @@ cd bika.lims/4.0.0
 ```bash
 docker compose up -d
 ```
-📍Your Bika LIMS instance will be available at: http://localhost:8081 (or the host machine’s IP/domain)
+📍Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
 
 ## Activate Add‑on Products in the UI
 To complete your installation, activate your desired add‑ons via Site Setup in the Bika LIMS UI.  Follow the guide here: [Installing Add‑on Products Manual](http://Installing-Add-on-Products-Manual.md)
