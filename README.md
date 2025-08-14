@@ -57,11 +57,7 @@ To complete your installation, activate your desired add‑ons via Site Setup in
 
 ### 🔄 Upgrading
 
-#### 1. Pull the latest release:
-```bash
-git pull origin main
-```
-#### 2. Rebuild and restart:
+#### 1. Pull the latest release. Rebuild and Restart:
 ```bash
 docker compose pull && docker compose up -d --build
 ```
