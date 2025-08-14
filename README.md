@@ -61,7 +61,10 @@ To complete your installation, activate your desired add‑ons via Site Setup in
 ```bash
 docker compose pull && docker compose up -d --build
 ```
-For major upgrades, check the Release Notes for special instructions.
+#### 2. Upgrade the add-ons on the Add-ons setup page
+Use the Admoin Setup screen to navigate to add-ons, /bikalims/prefs_install_products_form, and press the [Upgrade] buttons for the add-ons requiring upgrading
+
+**NB** For major upgrades, check the Release Notes for special instructions.
 
 ### 📋 Component Versions
 
