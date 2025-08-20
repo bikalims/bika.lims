@@ -49,9 +49,11 @@ cd bika.lims/4.0.0
 ```bash
 docker compose up -d
 ```
-
 📍Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
 User admin / admin
+
+#### 3. Change the admin passord
+Please see [Changing the admin password](https://www.bikalims.org/manual/technical/change-the-servers-admin-password)
 
 ### Configuration
 Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/manual/setup-and-configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/manual/setup-and-configuration/order-of-configuration). Our upgrade will include a set of spreadsheets to upload a sandpit set.
