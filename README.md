@@ -25,7 +25,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 - [Support](https://github.com/bikalims/bika.lims/blob/main/README.md#-support)
 - [Disclaimer](https://github.com/bikalims/bika.lims/blob/main/README.md#%EF%B8%8F-disclaimer)
 
-### 📦 Included: Preinstalled and Activated
+### Included: Preinstalled and Activated
 
 #### Senaite Core
 - senaite.core - The main framework providing the foundation for Senaite/Bika LIMS
@@ -52,7 +52,7 @@ These should come preinstalled in next upgrades. Available in their own repos, s
 - senaite.batch.invoices - Issues invoices per Batch
 - senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 
-### 🚀 Quick Start -  Docker Compose
+### Quick Start -  Docker Compose
 
 #### 1. Clone the repository
 ```bash
@@ -63,7 +63,7 @@ cd bika.lims/4.0.0
 ```bash
 docker compose up -d
 ```
-📍Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
+Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
 User admin / admin
 
 ### Change the admin password
@@ -72,7 +72,7 @@ Please see [Changing the admin password](https://www.bikalims.org/manual/technic
 ### Configuration
 Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/manual/setup-and-configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/manual/setup-and-configuration/order-of-configuration). Our upgrade will include a set of spreadsheets to upload a sandpit set.
 
-### 🔄 Upgrading
+### Upgrading
 
 #### 1. Pull the latest release. Rebuild and Restart:
 ```bash
@@ -83,7 +83,7 @@ Use the Admin Setup screen to navigate to add-ons, /bikalims/prefs_install_produ
 
 **NB** For major upgrades, check the Release Notes for special instructions.
 
-### 📋 Component Versions
+### Component Versions
 
 | Component                    | Version | License | Upstream Source |
 |------------------------------|---------|---------|-----------------|
@@ -102,20 +102,20 @@ Use the Admin Setup screen to navigate to add-ons, /bikalims/prefs_install_produ
 | senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
 | senaite.reports              | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
 
-### 📜 Licence
+### Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
 All bundled upstream components retain their original licenses.
 License files for each component are included in their own repos.
 
-### 📚 Resources
+### Resources
 - [Bika LIMS GitHub Source Repository](https://github.com/bikalims)
 - [Senaite GitHub Source Repository](https://github.com/senaite)
 - [Docker Hub Images](https://hub.docker.com/u/bikalims)
   
-### 🤝 Support
+### Support
 - [Join the Bika Slack room](mailto:info@bikalabs.com?subject=Please%20subscribe%20me%20to%20Bika%20Slack)
 - [Report issues, request improvements](https://bika.atlassian.net/jira/dashboards/10000)
 
-### ⚠️ Disclaimer
+###  Disclaimer
 This repository does not contain the source code of Bika LIMS itself.
 It is a packaging and deployment solution designed to make running Bika LIMS in Docker easy and consistent.
