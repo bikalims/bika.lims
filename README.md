@@ -11,6 +11,20 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 **NB Full installations** are better suited for development environments, and including a load balancer, for production environments.  Please see the [Installation Manual](https://github.com/bikalims/bika.documentation/blob/main/docs/BikaSenaiteServerIntroduction.md).
 
+### Content
+
+- [Included: Preinstalled and Activated](https://github.com/bikalims/bika.lims/edit/main/README.md#-included-preinstalled-and-activated)
+- [Available, to be integrated](https://github.com/bikalims/bika.lims/edit/main/README.md#available-to-be-integrated)
+- [Quick Start - Docker Compose](https://github.com/bikalims/bika.lims/edit/main/README.md#-quick-start----docker-compose)
+- [Change the admin password](https://github.com/bikalims/bika.lims/edit/main/README.md#change-the-admin-passord)
+- [Configuration](https://github.com/bikalims/bika.lims/edit/main/README.md#configuration)
+- [Upgrading](https://github.com/bikalims/bika.lims/edit/main/README.md#-upgrading)
+- [Component Versions](https://github.com/bikalims/bika.lims/edit/main/README.md#-component-versions)
+- [Licence](https://github.com/bikalims/bika.lims/edit/main/README.md#-licence)
+- [Resources](https://github.com/bikalims/bika.lims/edit/main/README.md#-resources)
+- [Support](https://github.com/bikalims/bika.lims/edit/main/README.md#-support)
+- [Disclaimer](https://github.com/bikalims/bika.lims/edit/main/README.md#%EF%B8%8F-disclaimer)
+
 ### 📦 Included: Preinstalled and Activated
 
 #### Senaite Core
@@ -52,7 +66,7 @@ docker compose up -d
 📍Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
 User admin / admin
 
-#### 3. Change the admin passord
+### Change the admin password
 Please see [Changing the admin password](https://www.bikalims.org/manual/technical/change-the-servers-admin-password)
 
 ### Configuration
