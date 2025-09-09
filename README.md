@@ -15,7 +15,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 - [Included: Preinstalled and Activated](https://github.com/bikalims/bika.lims/blob/main/README.md#-included-preinstalled-and-activated)
 - [Available, to be integrated](https://github.com/bikalims/bika.lims/blob/main/README.md#-quick-start----docker-compose)
-- [Quick Start - Docker Compose](https://github.com/bikalims/bika.lims/blob/main/README.md#-quick-start----docker-compose)
+- [Quick Start - Docker Compose](*Quick Start -  Docker Compose)
 - [Change the admin password](https://github.com/bikalims/bika.lims/blob/main/README.md#change-the-admin-password)
 - [Configuration](https://github.com/bikalims/bika.lims/blob/main/README.md#configuration)
 - [Upgrading](https://github.com/bikalims/bika.lims/blob/main/README.md#-upgrading)
