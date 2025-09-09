@@ -15,10 +15,11 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 - [Preinstalled and Activated](#preinstalled-and-activated)
 - [To be integrated](#to-be-integrated)
-- [Quick Start - Docker Compose](#quick-start)
+- [Quick Start](#quick-start)
 - [Change the admin password](#change-the-admin-password)
 - [Configuration](#configuration)
 - [Upgrading](#upgrading)
+- [Uninstall](#uninstall)
 - [Component Versions](#component-versions)
 - [Licence](#licence)
 - [Resources](#resources)
@@ -81,6 +82,12 @@ docker compose pull && docker compose up -d --build
 Use the Admin Setup screen to navigate to add-ons, /bikalims/prefs_install_products_form, and press the [Upgrade] buttons for the add-ons that require upgrading
 
 **NB** For major upgrades, check the Release Notes for special instructions.
+
+### Uninstall
+```bash
+docker compose down -v
+```
+This will also remove the DB
 
 ### Component Versions
 
