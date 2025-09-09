@@ -13,19 +13,18 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 ## Content
 
-- [Included: Preinstalled and Activated](https://github.com/bikalims/bika.lims/blob/main/README.md#-included-preinstalled-and-activated)
-- [Available, to be integrated](https://github.com/bikalims/bika.lims/blob/main/README.md#-quick-start----docker-compose)
-- [Quick Start - Docker Compose](#quick-start-docker-compose)
+- [Preinstalled and Activated](#preinstalled-and-activated)
+- [To be integrated](#to-be-integrated)
+- [Quick Start - Docker Compose](#quick-start)
 - [Change the admin password](#change-the-admin-password)
-- [Configuration](https://github.com/bikalims/bika.lims/blob/main/README.md#configuration)
-- [Upgrading](https://github.com/bikalims/bika.lims/blob/main/README.md#-upgrading)
-- [Component Versions](https://github.com/bikalims/bika.lims/blob/main/README.md#-component-versions)
-- [Licence](https://github.com/bikalims/bika.lims/blob/main/README.md#-licence)
-- [Resources](https://github.com/bikalims/bika.lims/blob/main/README.md#-resources)
-- [Support](https://github.com/bikalims/bika.lims/blob/main/README.md#-support)
-- [Disclaimer](https://github.com/bikalims/bika.lims/blob/main/README.md#%EF%B8%8F-disclaimer)
-
-### Included: Preinstalled and Activated
+- [Configuration](#configuration)
+- [Upgrading](#upgrading)
+- [Component Versions](#component-versions)
+- [Licence](#licence)
+- [Resources](#resources)
+- [Support](#support)
+- [Disclaimer](#disclaimer)
+### Preinstalled and Activated
 
 #### Senaite Core
 - senaite.core - The main framework providing the foundation for Senaite/Bika LIMS
@@ -45,14 +44,14 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 - bika.extras - Collection of smaller refinements not substantial enough for their own releases
 - bika.reports - First drive to reserect Bika Managment Reports. Some interesting new ones, the rest being refactored
 
-### Available, to be integrated
+### To be integrated
 These should come preinstalled in next upgrades. Available in their own repos, see the Manifest below
 - senaite.queue - Background processing
 - bika.qmanager - Allows lab managers to set analysis volume ceilings for switching to background processing
 - senaite.batch.invoices - Issues invoices per Batch
 - senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 
-### Quick Start -  Docker Compose
+### Quick Start
 
 #### 1. Clone the repository
 ```bash
