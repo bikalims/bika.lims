@@ -106,7 +106,7 @@ This will also remove the DB
 | senaite.samplepointlocations | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.samplepointlocations) |
 | bika.extras                  | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.extras) |
 | senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
-| senaite.reports              | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
+| bika.reports              | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
 
 ### Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
