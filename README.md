@@ -96,7 +96,7 @@ This will also remove the DB
 
 | Component                    | Version | License | Upstream Source |
 |------------------------------|---------|---------|-----------------|
-| senaite.core                 | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.core) |
+| senaite.core                 | 2.7.15 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.core) |
 | senaite.app.listing          | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.app.listing) |
 | senaite.lims                 | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
 | senaite.impress              | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
