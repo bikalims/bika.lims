@@ -47,7 +47,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 ##### Since 4.1
 - senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
-- seanite.timeseries - Measuring and graphing results that evolve over time
+- senaite.timeseries - Measuring and graphing results that evolve over time
 
 ### To be integrated
 These should come preinstalled in next upgrades. Available in their own repos, see the Manifest below
@@ -109,7 +109,9 @@ This will also remove the DB
 | senaite.samplepointlocations | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.samplepointlocations) |
 | bika.extras                  | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.extras) |
 | senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
-| bika.reports              | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
+| bika.reports                 | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
+| senaite.timeseries           | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.timeseries) |
+| senaite.receivedemail        | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
 
 ### Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
