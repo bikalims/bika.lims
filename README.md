@@ -111,7 +111,7 @@ This will also remove the DB
 | senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
 | bika.reports                 | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
 | senaite.timeseries           | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.timeseries) |
-| senaite.receivedemail        | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
+| senaite.receivedemail        | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
 
 ### Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
