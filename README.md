@@ -45,12 +45,15 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 - bika.extras - Collection of smaller refinements not substantial enough for their own releases
 - bika.reports - First drive to reserect Bika Managment Reports. Some interesting new ones, the rest being refactored
 
+##### Since 4.1
+- senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
+- seanite.timeseries - Measuring and graphing results that evolve over time
+
 ### To be integrated
 These should come preinstalled in next upgrades. Available in their own repos, see the Manifest below
 - senaite.queue - Background processing
 - bika.qmanager - Allows lab managers to set analysis volume ceilings for switching to background processing
 - senaite.batch.invoices - Issues invoices per Batch
-- senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 
 ### Quick Start
 
