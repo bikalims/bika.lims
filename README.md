@@ -101,7 +101,7 @@ This will also remove the DB
 | senaite.lims                 | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.lims) |
 | senaite.impress              | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.impress) |
 | senaite.storage              | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.storage) |
-| bika.ui                      | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.ui) |
+| bika.ui                      | 2.6.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.ui) |
 | bika.coa                     | 2.7.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.coa) |
 | senaite.instruments          | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.instruments) |
 | senaite.sampleimporter       | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/senaite/senaite.sampleimporter) |
@@ -110,7 +110,7 @@ This will also remove the DB
 | bika.extras                  | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalabs/bika.extras) |
 | senaite.crms                 | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.crms) |
 | bika.reports                 | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
-| senaite.timeseries           | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.timeseries) |
+| senaite.timeseries           | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.timeseries) |
 | senaite.receivedemail        | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
 
 ### Licence
