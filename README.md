@@ -55,6 +55,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 ### Quick Start
 
 On Windows, install Git for Windows and Docker Desktop. Start Docker
+In a Terminal window, run:
 
 #### 1. Clone the repository
 ```bash
@@ -69,10 +70,10 @@ Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (o
 User admin / admin
 
 ### Change the admin password
-Please see [Changing the admin password](https://www.bikalims.org/manual/technical/change-the-servers-admin-password)
+Please see [Changing the admin password](https://www.bikalims.org/new-manual/some-technical-matters/changing-the-admin-password)
 
 ### Configuration
-Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/manual/setup-and-configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/manual/setup-and-configuration/order-of-configuration). Our upgrade will include a set of spreadsheets to upload a sandpit set.
+Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/new-manual/configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/new-manual/configuration/order-of-configuration). Our upgrade will include a set of spreadsheets to upload a sandpit set.
 
 ### Upgrading
 
@@ -111,6 +112,7 @@ This will also remove the DB
 | bika.reports                 | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/bika.reports) |
 | senaite.timeseries           | 2.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.timeseries) |
 | senaite.receivedemail        | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.receivedemail) |
+| senaite.batchinvoices        | 1.0.0 | GPL-2.0 | [GitHub](https://github.com/bikalims/senaite.batch.invoices) |
 
 ### Licence
 This repository’s Docker packaging and documentation are licensed under the GPL-2.0 (see LICENSE).
