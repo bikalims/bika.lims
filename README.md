@@ -49,10 +49,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 - senaite.receivedemail - Posts a ‘Sample received’ email to client on sample receipt
 - senaite.timeseries - Measuring and graphing results that evolve over time
 
-### To be integrated
-These should come preinstalled in next upgrades. Available in their own repos, see the Manifest below
-- senaite.queue - Background processing
-- bika.qmanager - Allows lab managers to set analysis volume ceilings for switching to background processing
+##### Since 4.2
 - senaite.batch.invoices - Issues invoices per Batch
 
 ### Quick Start
