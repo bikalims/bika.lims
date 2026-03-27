@@ -54,6 +54,8 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 ### Quick Start
 
+On Windows, install Git for Windows and Docker Desktop. Start Docker
+
 #### 1. Clone the repository
 ```bash
 git clone https://github.com/bikalims/bika.lims.git
