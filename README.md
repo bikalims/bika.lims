@@ -14,7 +14,6 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 ## Content
 
 - [Preinstalled and Activated](#preinstalled-and-activated)
-- [To be integrated](#to-be-integrated)
 - [Quick Start](#quick-start)
 - [Change the admin password](#change-the-admin-password)
 - [Configuration](#configuration)
