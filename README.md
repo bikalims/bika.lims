@@ -55,7 +55,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 On Windows, install _Git for Windows_ and _Docker Desktop_. Start Docker. In Linux, _Git_ and _Docker_.
 
-In a Terminal window, run:
+In a Terminal window:
 
 #### 1. Clone the repository
 ```bash
