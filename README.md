@@ -75,7 +75,7 @@ User admin / admin
 Please see [Changing the admin password](https://www.bikalims.org/new-manual/some-technical-matters/changing-the-admin-password)
 
 ### Configuration
-Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/new-manual/configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/new-manual/configuration/order-of-configuration). Our upgrade will include a set of spreadsheets to upload a sandpit set.
+Your new LIMS wil be functional but empty, ready for you to configure. See the [Configuration](https://www.bikalims.org/new-manual/configuration) chapter in the manual, specifically [Order of Configuration](https://www.bikalims.org/new-manual/configuration/order-of-configuration). The 4.2 upgrade include spreadsheets to upload a sandpit configuration.
 
 ### Upgrading
 
