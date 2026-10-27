@@ -17,6 +17,8 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 - [Preinstalled and Activated](#preinstalled-and-activated)
 - [Quick Start](#quick-start)
+- [Ingwe 4.2.1](#ingwe-421)
+- [Client form troubleshooting](#client-form-troubleshooting)
 - [Change the admin password](#change-the-admin-password)
 - [Configuration](#configuration)
 - [Upgrading](#upgrading)
@@ -62,7 +64,7 @@ In a Terminal window:
 #### 1. Clone the repository
 ```bash
 git clone https://github.com/bikalims/bika.lims.git
-cd bika.lims/4.0.0
+cd bika.lims/4.2.1
 ```
 #### 2. Start the stack
 ```bash
@@ -70,6 +72,33 @@ docker compose up -d
 ```
 Your Bika LIMS instance will be available at: http://localhost:8081/bikalims/ (or the host machine’s IP/domain)
 User admin / admin
+
+### Ingwe 4.2.1
+
+This maintenance release fixes the add-on profile dependency that could leave
+**Add Client** showing only Bank details and Preferences. `bika.reports` now
+depends on the `senaite.core:default` profile, preserving SENAITE's edit-template
+precedence after installation. No JavaScript rebuild or change to the Compose
+profile order is needed.
+
+All 20 Git sources are pinned to commit hashes in
+[`4.2.1/buildout.cfg`](4.2.1/buildout.cfg). See the
+[`4.2.1` README](4.2.1/README.md) for local builds and Docker Hub publishing.
+The Compose configuration expects the `bikalims/bikalims:v4.2.1` image; build it
+locally if that tag has not yet been published.
+
+### Client form troubleshooting
+
+If an existing site shows only Bank details and Preferences when adding a Client:
+
+1. Back up the database and blob storage.
+2. Navigate to **Admin → Site Setup → Manage Interface → portal_quickinstaller**.
+3. Select **senaite.core** and click **Reinstall**.
+4. Return to **Clients → Add Client** and check that all four tabs are available.
+
+This repairs the existing site's template configuration without recreating the
+site or rebuilding JavaScript. Creating a new site through the normal SENAITE/Bika
+site setup also worked in testing, but does not transfer existing data.
 
 ### Change the admin password
 Please see [Changing the admin password](https://www.bikalims.org/new-manual/some-technical-matters/changing-the-admin-password)
