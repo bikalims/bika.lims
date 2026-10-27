@@ -38,7 +38,8 @@ Check all four Add Client tabs, save a Client, open the Clients listing, and
 check the Reports Productivity and Administration pages before publishing.
 
 The dependency fix passed fresh-install checks in a local ZEO installation.
-The newly built Docker image still needs its own verification.
+The v4.2.1 Docker image also passed checks for all four Client tabs, saving a
+Client, the Clients listing, and both Reports pages.
 
 ## Existing installations
 
