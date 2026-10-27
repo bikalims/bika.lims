@@ -7,7 +7,7 @@ All 20 Git sources are pinned in `buildout.cfg`.
 
 ## Start a fresh installation
 
-From this directory, once the image is available on Docker Hub:
+From this directory:
 
 ```bash
 docker compose pull
@@ -18,9 +18,6 @@ docker compose logs -f instance1
 Open http://localhost:8081/bikalims/ and log in with `admin` / `admin`.
 Change the administrator password before using the site for real work.
 The first startup creates the site and applies the configured add-on profiles.
-
-If the image tag is not published yet, build it locally using the next section,
-then run `docker compose up -d`.
 
 ## Build and test locally
 

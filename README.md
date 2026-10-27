@@ -84,8 +84,7 @@ profile order is needed.
 All 20 Git sources are pinned to commit hashes in
 [`4.2.1/buildout.cfg`](4.2.1/buildout.cfg). See the
 [`4.2.1` README](4.2.1/README.md) for local builds and Docker Hub publishing.
-The Compose configuration expects the `bikalims/bikalims:v4.2.1` image; build it
-locally if that tag has not yet been published.
+The Compose configuration uses the `bikalims/bikalims:v4.2.1` image.
 
 ### Client form troubleshooting
 
