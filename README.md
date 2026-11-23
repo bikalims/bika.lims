@@ -16,6 +16,7 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 ## Content
 
 - [Preinstalled and Activated](#preinstalled-and-activated)
+- [Backup and Disaster Recovery](#backup-and-disaster-recovery)
 - [Quick Start](#quick-start)
 - [Ingwe 4.2.1](#ingwe-421)
 - [Client form troubleshooting](#client-form-troubleshooting)
@@ -54,6 +55,14 @@ It aims to install a fully functional LIMS with key-add-ons, ready to be used. N
 
 ##### Since 4.2
 - senaite.batch.invoices - Issues invoices per Batch
+
+### Backup and Disaster Recovery
+
+For production installations, refer to the
+[Production Backup and Restore Procedure](docs/production-backup-and-restore.md).
+
+This guide covers local and remote backups, managed infrastructure,
+disaster recovery, backup maintenance and restoration procedures.
 
 ### Quick Start
 
