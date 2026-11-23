@@ -268,6 +268,12 @@ Two approaches are considered:
 - **Remote backup storage:** Generate database and BlobStorage archives using `bin/zipbackup` and transfer the completed archives to another server. This is the established approach used by the Bika LIMS team on relevant production installations.
 - **ZODB replication:** Optionally maintain a secondary database using a mechanism such as ZRS. Replication requires separate validation and does not replace versioned backups.
 
+#### Remote Backup Workflow
+
+The diagram shows `bin/zipbackup` producing local database and BlobStorage archives, followed by a separate transfer of the completed archives to a remote backup server.
+
+![Bika LIMS local archive creation and remote backup transfer](images/remote-backup-workflow.png)
+
 **Advantages:** Independent recovery copies, configurable remote retention, and reduced exposure to single-server failure.
 
 **Limitations:** Additional storage, secure connectivity, transfer monitoring, and periodic restoration testing are required. Replication adds operational complexity.
@@ -396,6 +402,8 @@ Before adopting replication, administrators should verify:
 - Independent versioned backups retained alongside replication.
 
 **Replication is not a substitute for backups.** Unwanted changes or corruption may also reach a replica.
+
+For the original Plone 4.3.11 primary/secondary configuration and the validation required before adapting it to newer installations, see [ZODB Replication with ZRS](zrs-replication.md).
 
 Reference: [zc.zrs on PyPI](https://pypi.org/project/zc.zrs/).
 
